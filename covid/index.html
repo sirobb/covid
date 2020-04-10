@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>no + covid</title>
+</head>
+<body>
+    <h2>No + Covid</h2>
+    
+    <h3>Para poder comenzar, es necesario ingresar algunos datos personales.</h3>
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>
+                <label for="">RUT:</label>
+            </td>
+            <td>
+                <label for="">Telefono:</label>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="text" name="rut" id="rut" maxlength="9" placeholder="" required></td>
+            <td><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> </td>
+        </tr>
+    </table>
+    
+    <form action="" name="formulario" method="get">
+        <h4>Tienes Algunos de estos sintomas?</h4>
+        <input type="checkbox" id="fiebre" name="fiebre" value="Fiebre">
+        <label for="vehicle1"> Fiebre</label><br>
+        <input type="checkbox" id="tos" name="tos" value="tos">
+        <label for="vehicle2"> Tos continuada o Persistente</label><br>
+        <input type="checkbox" id="dificultas" name="dificultas" value="dificultas">
+        <label for="vehicle3"> Dificultad Respiratoria</label><br>
+        <input type="checkbox" id="Malestar" name="Malestar" value="Malestar">
+        <label for="vehicle3"> Malestar General</label><br><br>
+        <input type="submit" value="Enviar">
+                                
+    </form>
+</body>
+</html>
